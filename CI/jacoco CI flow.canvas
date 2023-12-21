@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"57e3e8f42c422662","type":"text","text":"**Build**\n(Test 실행 됨)","x":-498,"y":-321,"width":156,"height":80},
+		{"id":"6be00f55604db844","type":"text","text":"**jacocoTestReport**\n(실행된 Test를 기반으로 Report생성)","x":-320,"y":-320,"width":309,"height":80},
+		{"id":"c527e60f8c7eabc4","type":"text","text":"**jacocoTestVarification**\n(==설정값==에 따라 varification)\n==예외 설정== 가능","x":11,"y":-336,"width":250,"height":98},
+		{"id":"40d0dac831eaded6","type":"text","text":"checkStyle 실행","x":306,"y":-367,"width":184,"height":50},
+		{"id":"918175b6620878b1","type":"text","text":"fail 처리","x":311,"y":-235,"width":168,"height":50},
+		{"id":"72141f2beddd97c2","type":"text","text":"sonar cloud로\n생성된 보고서들 전달\n","x":555,"y":-417,"width":280,"height":80},
+		{"id":"6708f0089419377a","type":"file","file":"CI/github action ci_v1.md","x":-313,"y":-546,"width":450,"height":139},
+		{"id":"b82d6bf0bfbdbc42","type":"text","text":"fail 처리","x":559,"y":-322,"width":250,"height":60},
+		{"id":"bb432f82c032627d","type":"text","text":"SONAR CLOUD\n\n전달받은 report 기반\n정적 코드 분석 및 테스트 커버리지 관련\n보고서 생성\n\npass / fail 여부와 생성한 보고서\n=> github PR에 review","x":905,"y":-336,"width":322,"height":231},
+		{"id":"33a71934afba3e77","type":"file","file":"CI/build.gradle.md","x":-498,"y":-201,"width":430,"height":191},
+		{"id":"2b79b681155d4e53","x":-310,"y":27,"width":605,"height":406,"type":"file","file":"CI/build.gradle.md"},
+		{"id":"065d9502e866b48e","x":377,"y":-98,"width":470,"height":343,"type":"file","file":"CI/build.gradle.md"},
+		{"id":"0fdad17d28bb03b6","x":482,"y":-160,"width":250,"height":60,"type":"text","text":"Jacoco 예외 적용 부분"}
+	],
+	"edges":[
+		{"id":"e572d65a03f2d0b3","fromNode":"57e3e8f42c422662","fromSide":"right","toNode":"6be00f55604db844","toSide":"left"},
+		{"id":"9ed217e72d0f8f17","fromNode":"57e3e8f42c422662","fromSide":"right","toNode":"6be00f55604db844","toSide":"left"},
+		{"id":"c511aca9dd336ba6","fromNode":"57e3e8f42c422662","fromSide":"right","toNode":"6be00f55604db844","toSide":"left"},
+		{"id":"f0aca01ce1caf7ec","fromNode":"57e3e8f42c422662","fromSide":"right","toNode":"6be00f55604db844","toSide":"left"},
+		{"id":"0bd5eb7f3830aa7d","fromNode":"57e3e8f42c422662","fromSide":"right","toNode":"6be00f55604db844","toSide":"left"},
+		{"id":"7605591f5a94c876","fromNode":"57e3e8f42c422662","fromSide":"right","toNode":"6be00f55604db844","toSide":"left"},
+		{"id":"38a0bc3e82cae7cd","fromNode":"57e3e8f42c422662","fromSide":"right","toNode":"6be00f55604db844","toSide":"left"},
+		{"id":"7bd3c948a867d593","fromNode":"6be00f55604db844","fromSide":"right","toNode":"c527e60f8c7eabc4","toSide":"left"},
+		{"id":"3c7f7799f90a2f14","fromNode":"c527e60f8c7eabc4","fromSide":"right","toNode":"40d0dac831eaded6","toSide":"left"},
+		{"id":"cb3f4d98bfc3ad94","fromNode":"c527e60f8c7eabc4","fromSide":"right","toNode":"918175b6620878b1","toSide":"left"},
+		{"id":"476c45fef791a488","fromNode":"40d0dac831eaded6","fromSide":"right","toNode":"72141f2beddd97c2","toSide":"left"},
+		{"id":"be0f1416d3c0eb05","fromNode":"40d0dac831eaded6","fromSide":"right","toNode":"b82d6bf0bfbdbc42","toSide":"left"},
+		{"id":"85292907cd3c3671","fromNode":"6708f0089419377a","fromSide":"bottom","toNode":"6be00f55604db844","toSide":"top"},
+		{"id":"03dd8f4e670f96ad","fromNode":"33a71934afba3e77","fromSide":"top","toNode":"6be00f55604db844","toSide":"bottom"},
+		{"id":"d73e68589108ef6e","fromNode":"6708f0089419377a","fromSide":"left","toNode":"57e3e8f42c422662","toSide":"top"},
+		{"id":"f75124cb4c5601d9","fromNode":"6708f0089419377a","fromSide":"right","toNode":"72141f2beddd97c2","toSide":"top"},
+		{"id":"78d6237e3db5adf7","fromNode":"72141f2beddd97c2","fromSide":"right","toNode":"bb432f82c032627d","toSide":"left"},
+		{"id":"d9fc323dc9bcdb81","fromNode":"b82d6bf0bfbdbc42","fromSide":"right","toNode":"bb432f82c032627d","toSide":"left"},
+		{"id":"c4fa4406d375e6b4","fromNode":"918175b6620878b1","fromSide":"right","toNode":"bb432f82c032627d","toSide":"left"},
+		{"id":"90315d39e1a6b42b","fromNode":"2b79b681155d4e53","fromSide":"top","toNode":"c527e60f8c7eabc4","toSide":"bottom"},
+		{"id":"ccde551e3c69fadc","fromNode":"c527e60f8c7eabc4","fromSide":"bottom","toNode":"065d9502e866b48e","toSide":"left"}
+	]
+}
