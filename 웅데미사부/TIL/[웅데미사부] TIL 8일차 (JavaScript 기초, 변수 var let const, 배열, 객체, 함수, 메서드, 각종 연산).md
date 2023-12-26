@@ -1,10 +1,19 @@
-
+---
+tistoryBlogName: yanacoding
+tistoryTitle: "[웅데미사부] TIL 8일차 (JavaScript 기초, 변수 var let const, 배열, 객체, 함수, 메서드, 각종 연산)"
+tistoryTags: " 유데미,유데미큐레이션,유데미취업부트캠프,유데미부트캠프,프론트엔드,백엔드,개발부트캠프"
+tistoryVisibility: "3"
+tistoryCategory: "1197249"
+tistorySkipModal: true
+tistoryPostId: "225"
+tistoryPostUrl: https://yanacoding.tistory.com/225
+---
 오늘 수강한 강의 : [ 【한글자막】 100일 코딩 챌린지 - Web Development 부트캠프](https://www.udemy.com/course/100-2022-web-development/?utm_source=adwords&utm_medium=udemyads&utm_campaign=WebDevelopment_Search_la.KR_cc.KR&utm_term=_._ag_153638105748_._ad_644611295653_._kw__._de_c_._dm__._pl__._ti_dsa-1939216851836_._li_1009871_._pd__._&matchtype=&gad_source=1&gclid=CjwKCAiA-P-rBhBEEiwAQEXhH8I5AFNq9-SbeYPmP5uwMpj7SzsS-tWDZ-KBEI9inPiFi4XJTAO19hoCjtEQAvD_BwE)
 
 ---
 # 오늘의 강의 정리 📗
 
-# 자바스크립트 기초 이해하기
+# ==자바스크립트 기초 이해하기==
 
 ## 자바스크립트란?
 - 웹 페이지에서 복잡한 기능을 구현 할 수 있는 스크립팅 또는 프로그래밍 언어.
@@ -266,10 +275,9 @@ console.log(hobbies.length);
 # 오늘의 멘토링 🥸
 - Q1 : `[YANA]` 멘토님 spring에서 사용해보지 못했던 기능들을 마음껏 사용해보려고 개인 spring playground 프로젝트를 만들어서 멀티모듈을 시도해본다던가, spring security를 적용해본다던가 하는 식으로 사용중인데, 이런 부분도 어떻게 보면 포트폴리오로써 사용 할 수도 있는걸까요?
 	- A : 면접자 대부분은 개발덕후. 기술을 단순히 써보기만 한 것으로는 약하다. 궁금한 기능을 직접 프로젝트에서 써먹보는 같은 수준의 기술덕후를 원한다.
-- Q2 :  `[YANA]` Spring boot application에서 파일과 여러 정보가 담긴 json 데이터를 하나의 api로 전달받아서 파일의 S3업로드 후 업도르 파일의 url을 여타 정보들과 함께 담아 하나의 entity에 저장하려했습니다. 관련해서 frontend에서 content-type을 multipart/formdata로 명시하고 파일을 담아서 보내줬으며, spring boot application에서는 @RequestPart 어노테이션을 활용해 file과 json데이터를 Request 객체에 담으려 시도했
-	- A : 
-- Q3 : 
-	- A : 
+- Q2 :  `[YANA]` Spring boot application에서 파일과 여러 정보가 담긴 json 데이터를 하나의 api로 전달받아서 파일의 S3업로드 후 업도르 파일의 url을 여타 정보들과 함께 담아 하나의 entity에 저장하려했습니다. frontend에서 content-type을 multipart/formdata로 명시하고 파일을 담아서 보내줬으며, spring boot application에서는 @RequestPart 어노테이션을 활용해 file과 json데이터를 Request 객체에 담으려 시도했습니다. 하지만 spring boot 에서 application/octet-stream type 컨텐츠를 처리 할 수 없다는 응답을 계속해서 보내왔고, 관련해서 확인해보니 controller조차 타지 않는 상황이라 AbstractJackson2HttpMessageConverter를 extend 받아 해당 타입 다룰 수 있는 converter를 생성해주니 동작하는 상황입니다. 관련해서 컨버터 제거하고 HttpServletRequest로 받은뒤 file과 json을 각각 꺼내보니 정상 동작하는 상황인데, 컨버터를 사용하는 방법도 그리고 request로 받는 방법도 온전히 납득이 가지 않아 걱정이 됩니다. 보통 현업에서는 관련 상황을 어떻게 처리하시나요?
+	- A : 각각 다른 타입의 데이터를 보내주는것이기 때문에 api를 분리하는 것이 맞다고 봄.
+		더불어서 파일 업로드의 경우에는 비동기로 처리 할 수 있도록 한 뒤, 해당 업로드에 대한 키를 다른 api 호출시 사용해서 연계를 지어준다던가 하는 방식으로 구현을 하는게 맞다고 판단됨. 관련해서 임시저장소는 필수로 사용하게 될 것. api를 분리한다는 관점으로 다시 생각해보길.
 
 ---
 `*` 유데미(Udemy) 큐레이션을 받고싶다면? : [https://bit.ly/43JLW2l](https://bit.ly/43JLW2l) 
@@ -277,4 +285,3 @@ console.log(hobbies.length);
 `*` STARTERS 취업 부트캠프 공식 블로그 : [https://blog.naver.com/udemy-wjtb](https://blog.naver.com/udemy-wjtb) 
 
 본 후기는 유데미 취업부트캠프 프론트엔드&백엔드 리뷰로 작성되었습니다. 
-유데미,유데미큐레이션,유데미취업부트캠프,유데미부트캠프,프론트엔드,백엔드,개발부트캠프
