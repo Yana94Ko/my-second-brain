@@ -3,5 +3,6 @@
   "tistory",
   "templater-obsidian",
   "emoji-shortcodes",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-plugin-toc"
 ]

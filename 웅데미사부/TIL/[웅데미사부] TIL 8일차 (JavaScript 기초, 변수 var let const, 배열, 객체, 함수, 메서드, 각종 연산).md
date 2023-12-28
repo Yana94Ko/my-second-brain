@@ -12,7 +12,7 @@ tistoryPostUrl: https://yanacoding.tistory.com/225
 
 ---
 # 오늘의 강의 정리 📗
-
+<목차여기>
 # ==자바스크립트 기초 이해하기==
 
 ## 자바스크립트란?
@@ -278,6 +278,14 @@ console.log(hobbies.length);
 - Q2 :  `[YANA]` Spring boot application에서 파일과 여러 정보가 담긴 json 데이터를 하나의 api로 전달받아서 파일의 S3업로드 후 업도르 파일의 url을 여타 정보들과 함께 담아 하나의 entity에 저장하려했습니다. frontend에서 content-type을 multipart/formdata로 명시하고 파일을 담아서 보내줬으며, spring boot application에서는 @RequestPart 어노테이션을 활용해 file과 json데이터를 Request 객체에 담으려 시도했습니다. 하지만 spring boot 에서 application/octet-stream type 컨텐츠를 처리 할 수 없다는 응답을 계속해서 보내왔고, 관련해서 확인해보니 controller조차 타지 않는 상황이라 AbstractJackson2HttpMessageConverter를 extend 받아 해당 타입 다룰 수 있는 converter를 생성해주니 동작하는 상황입니다. 관련해서 컨버터 제거하고 HttpServletRequest로 받은뒤 file과 json을 각각 꺼내보니 정상 동작하는 상황인데, 컨버터를 사용하는 방법도 그리고 request로 받는 방법도 온전히 납득이 가지 않아 걱정이 됩니다. 보통 현업에서는 관련 상황을 어떻게 처리하시나요?
 	- A : 각각 다른 타입의 데이터를 보내주는것이기 때문에 api를 분리하는 것이 맞다고 봄.
 		더불어서 파일 업로드의 경우에는 비동기로 처리 할 수 있도록 한 뒤, 해당 업로드에 대한 키를 다른 api 호출시 사용해서 연계를 지어준다던가 하는 방식으로 구현을 하는게 맞다고 판단됨. 관련해서 임시저장소는 필수로 사용하게 될 것. api를 분리한다는 관점으로 다시 생각해보길.
+## 오늘 멘토링과 관련해서 생각/공부해봐야 할 주제 🤔
+1. 각각 다른 타입의 데이터를 보내주는 때에는 하나의 요청에 두가지 이상의 데이터 형식을 담는 것은(param 제외) "HTTP 표준에 어긋나기 때문"에 api를 분리하는것이 좋다고 하셨는데..
+	1) "HTTP 표준에 어긋난다"는건 뭘까?
+	2) 두가지 타입의 데이터를 하나의 요청에 보내는건 정말 HTTP 표준에 어긋날까?
+2. 파일 업로드의 경우 비동기로 하는게 좋겠다고 하셨는데, 이유가 뭘까?
+	- 실패시 재시도하는 로직을 짜기 위해서일까?
+3. JSON과 file이라는 두가지 타입 데이터를 하나의 요청에서 전달한 경우, 프론트에서 보낸 요청의 contentType가 아닌 다른 contentType으로 servlet단에 들어오게 되는것 같은데, 어떤 과정이 있었길래 바뀐걸까? 
+	- cf) [[front에서는 multipart formdata로 보내준 request가 spring에서는 application octet-stream이 되어 돌아오는 마법]]
 
 ---
 `*` 유데미(Udemy) 큐레이션을 받고싶다면? : [https://bit.ly/43JLW2l](https://bit.ly/43JLW2l) 

@@ -11,7 +11,11 @@ tistorySkipModal: true
 `
 오늘 수강한 강의 : [ 【한글자막】 100일 코딩 챌린지 - Web Development 부트캠프](https://www.udemy.com/course/100-2022-web-development/?utm_source=adwords&utm_medium=udemyads&utm_campaign=WebDevelopment_Search_la.KR_cc.KR&utm_term=_._ag_153638105748_._ad_644611295653_._kw__._de_c_._dm__._pl__._ti_dsa-1939216851836_._li_1009871_._pd__._&matchtype=&gad_source=1&gclid=CjwKCAiA-P-rBhBEEiwAQEXhH8I5AFNq9-SbeYPmP5uwMpj7SzsS-tWDZ-KBEI9inPiFi4XJTAO19hoCjtEQAvD_BwE)
 
+---
 # 오늘의 강의 정리 📗
+<목차여기>
+
+---
 
 오늘 VOD 강의(13-16일차) 진도에서는 깃과 깃허브를 통한 버전관리와, HTML CSS의 레이아웃 및 포지셔닝에 대해서 배웠다. Git, Github의 경우엔 계속해서 써왔고, 앞으로도 계속 사용할 버전관리 시스템이기 때문에 다시 한 번 복습한다는 관점에서 수강을 완료했다. HTML CSS에서도 grid와 flex처럼 요소를 배치하는 부분에서 최근 프로젝트에서 고생을 했던 부분이었기에 관심있게 수강 할 수 있었다.
 

@@ -11,6 +11,7 @@ tistorySkipModal: true
 오늘 수강한 강의 : [ 【한글자막】 100일 코딩 챌린지 - Web Development 부트캠프](https://www.udemy.com/course/100-2022-web-development/?utm_source=adwords&utm_medium=udemyads&utm_campaign=WebDevelopment_Search_la.KR_cc.KR&utm_term=_._ag_153638105748_._ad_644611295653_._kw__._de_c_._dm__._pl__._ti_dsa-1939216851836_._li_1009871_._pd__._&matchtype=&gad_source=1&gclid=CjwKCAiA-P-rBhBEEiwAQEXhH8I5AFNq9-SbeYPmP5uwMpj7SzsS-tWDZ-KBEI9inPiFi4XJTAO19hoCjtEQAvD_BwE)
 
 # 오늘의 강의 정리 📗
+<목차여기>
 ## ==HTML CSS 레이아웃 및 포지셔닝==
 ### text 스타일링
 ### margin 축소(중복)
@@ -450,6 +451,11 @@ item:nth-child(7) { grid-column: auto / span 2; }
 		7. [Real MySQL 8.0 1권]([https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=278488709](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=278488709))
 		8. [Node.js 하이퍼포먼스]([https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=98320450](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=98320450))
 		9. [혼자 공부하는 컴퓨터구조 + 운영체제]([https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=299014282](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=299014282))
+
+## 오늘 멘토링과 관련해서 생각/공부해봐야 할 주제 🤔
+1. 왜 mvc 패턴은 지양되어가는 중일까?
+	- [[작고 귀여운 나의 운영서버를 위한 Spring + react 프로젝트 정적 리소스 배포기(feat.. spring servlet custom filter + 왜 mvc 패턴은 지양되고 있는가.)]]
+2. filter를 통해 정적 리소스를 보내준다면, 어느 필터 다음에 위치시키는 것이 가장 적절한가 고민해봐야겠다.
 
 ---
 `*` 유데미(Udemy) 큐레이션을 받고싶다면? : [https://bit.ly/43JLW2l](https://bit.ly/43JLW2l) 
