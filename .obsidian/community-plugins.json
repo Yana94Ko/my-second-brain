@@ -4,5 +4,6 @@
   "templater-obsidian",
   "emoji-shortcodes",
   "obsidian-git",
-  "obsidian-plugin-toc"
+  "obsidian-plugin-toc",
+  "obsidian-markmind"
 ]

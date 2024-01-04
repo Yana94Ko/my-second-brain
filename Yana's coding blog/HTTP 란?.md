@@ -2,7 +2,7 @@
 tistoryBlogName: yanacoding
 tistoryTitle: HTTP 란?
 tistoryTags: HTTP,HTTP request,HTTP respnes,message,HTTPS,QUID
-tistoryVisibility: "0"
+tistoryVisibility: "3"
 tistoryCategory: "1155358"
 tistorySkipModal: true
 tistoryPostId: "240"
@@ -19,7 +19,7 @@ tistoryPostUrl: https://yanacoding.tistory.com/240
     클라이언트가 HTTP request를 서버에 보내면 서버는 HTTP response를 보내는 구조  
     클라이언트와 서버 대부분의 통신이 요청과 응답으로 이루어 짐.
 
-# [HTTP Response, Request 메시지**의 구조(Start Line, Status Line, Header, Content)](https://developer.mozilla.org/ko/docs/Web/HTTP/Messages)
+# [HTTP Response, Request 메시지의 구조(Start Line, Status Line, Header, Content)](https://developer.mozilla.org/ko/docs/Web/HTTP/Messages)
 - HTTP 메시지는 서버와 클라이언트 간에 데이터가 교환되는 방식
 - 요청('request')은 클라이언트가 서버로 전달해서 서버의 액션이 일어나게끔 하는 메시지
 - 응답('response')은 요청에 대한 서버의 답변
@@ -231,40 +231,44 @@ const express=require("express"),app=express(),port=3e3;app.get("/",(e,p)=>{p.se
 - 클라이언트와 서버와 키를 공유, 이를 기반으로 인증, 인증 확인 등의 작업이 일어나는 단 한 번의 1-RTT가 생긴 후 데이터를 송수신.
 - 클라이언트에서 사이퍼 슈트(cypher suites)를 서버에 전달
 	CF)  0-RTT : TLS 1.3은 사용자가 이전에 방문한 사이트로 다시 방문한다면 SSL/TLS에서 보안 세션을 만들 때 걸리는 통신을 하지 않아도 되는것을 이름.
-
->  사이퍼 슈트(cypher suites) : 암호화 스위트.
->  암호화 스위트의 구조[https://blog.kakaocdn.net/dn/WfJxK/btrNPikv0jL/3mdSHOm6uBD7tZXCfQEJ61/img.png](https://blog.kakaocdn.net/dn/WfJxK/btrNPikv0jL/3mdSHOm6uBD7tZXCfQEJ61/img.png)
+<br/><br/>
+##### **사이퍼 슈트(cypher suites) : 암호화 스위트**
+>  암호화 스위트의 구조![https://blog.kakaocdn.net/dn/WfJxK/btrNPikv0jL/3mdSHOm6uBD7tZXCfQEJ61/img.png](https://blog.kakaocdn.net/dn/WfJxK/btrNPikv0jL/3mdSHOm6uBD7tZXCfQEJ61/img.png)
 
 -> 서버는 받은 사이퍼 슈트의 암호화 알고리즘 리스트를 제공할 수 있는지 확인
 -> 제공할 수 있다면 서버에서 클라이언트로 인증서를 보내는 인증 메커니즘이 시작
 -> 이후 해싱 알고리즘 등으로 암호화된 데이터의 송수신이 시작.
 
+<br/><br/>
 ##### **AEAD(Authenticated Encryption with Associated Data) 사이퍼 모드**
 -  AES_128_GCM 등 데이터 암호화 알고리즘.
-
+<br/><br/>
 ##### **인증 메커니즘**
 -  Comodo, GoDaddy, GlobalSign, 아마존등의 CA(Certificate Authorities)에서 발급한 인증서를 기반으로 이루어짐.
 	인증서( 서비스 정보, 공개키, 지문, 디지털 서명 등으로 이루어짐)는 안전한 연결에  필요한 ‘공개키’를 클라이언트에 제공
 	-> 사용자가 접속한 ‘서버가 신뢰’할 수 있는 서버임을 보장
-
+<br/><br/>
 ##### **CA 발급 과정**
 1) 자신의 사이트 정보와 공개키를 CA에 제출
 2) 공개키를 해시한 값인 지문(finger print)을 사용하는 CA의 비밀키 등을 기반으로 CA 인증서를 발급
-
+<br/><br/>
 ##### **암호화 알고리즘(키 교환 암호화 알고리즘)**
 - 대수곡선 기반의 ECDHE(Elliptic Curve Diffie-Hellman Ephermeral) 또는 모듈식 기반의 DHE(Diffie-Hellman Ephermeral)를 사용.
 	두 알고리즘 모두 디피-헬만(Diffie-Hellman) 방식을 근간으로 함.
 	
+<br/><br/>
 ##### **디피-헬만 키 교환 암호화 알고리즘(Diffie-Hellman key exchange) :**
 
 ![https://blog.kakaocdn.net/dn/Go4ED/btrNIKi2qPr/NfXR26sqjcy8TWON1i3zqK/img.png](https://blog.kakaocdn.net/dn/Go4ED/btrNIKi2qPr/NfXR26sqjcy8TWON1i3zqK/img.png)
 
 ![https://blog.kakaocdn.net/dn/oIfUp/btrNOTLYGtD/KEFlNZ77KTtZwSCHj8lnM1/img.png](https://blog.kakaocdn.net/dn/oIfUp/btrNOTLYGtD/KEFlNZ77KTtZwSCHj8lnM1/img.png)
 
+<br/><br/>
 ##### **해싱 알고리즘**
 - 데이터를 추정하기 힘든 더 작고, 섞여 있는 조각으로 만드는 알고리즘
 - SSL/TLS는 해싱 알고리즘으로 SHA-256(가장 많이 사용) 알고리즘과 SHA-384 알고리즘을 사용.
 
+<br/><br/>
 ##### **SHA-256 알고리즘**
 - 해시 함수의 결괏값이 256비트인 알고리즘
 - 비트 코인을 비롯한 많은 블록체인 시스템에서도 쓰임.

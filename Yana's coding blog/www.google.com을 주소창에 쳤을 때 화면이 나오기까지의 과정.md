@@ -2,7 +2,7 @@
 tistoryBlogName: yanacoding
 tistoryTitle: www.google.com을 주소창에 쳤을 때 화면이 나오기까지의 과정
 tistoryTags: web,DNS,IP,TCP,로드밸런서,L4,L7
-tistoryVisibility: "0"
+tistoryVisibility: "3"
 tistoryCategory: "1155358"
 tistorySkipModal: true
 tistoryPostId: "241"

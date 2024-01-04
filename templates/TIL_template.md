@@ -1,4 +1,4 @@
-오늘 수강한 강의 : [ 【한글자막】 100일 코딩 챌린지 - Web Development 부트캠프](https://www.udemy.com/course/100-2022-web-development/?utm_source=adwords&utm_medium=udemyads&utm_campaign=WebDevelopment_Search_la.KR_cc.KR&utm_term=_._ag_153638105748_._ad_644611295653_._kw__._de_c_._dm__._pl__._ti_dsa-1939216851836_._li_1009871_._pd__._&matchtype=&gad_source=1&gclid=CjwKCAiA-P-rBhBEEiwAQEXhH8I5AFNq9-SbeYPmP5uwMpj7SzsS-tWDZ-KBEI9inPiFi4XJTAO19hoCjtEQAvD_BwE)
+오늘 수강한 강의 : [【한글자막】 데이터 역량 강화를 위한 SQL 부트캠프](https://www.udemy.com/course/best-sql-2022/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Webindex_Catchall_la.KR_cc.KR&utm_term=_._ag_154831691911_._ad_667917181863_._kw__._de_c_._dm__._pl__._ti_dsa-1456167871416_._li_1009871_._pd__._&matchtype=&gad_source=1&gclid=CjwKCAiA4smsBhAEEiwAO6DEjYTfA9uRKpohvXL57GOl1RtmvewP_qtbVoeZO3pIG1_bIILaS16QnRoCNZgQAvD_BwE)
 
 ---
 # 오늘의 강의 정리 📗
