@@ -624,9 +624,9 @@ if(elm.className === 'active'){
 	- innerClass 사용시 하나의 엔티티에 대한 CRUD용 dto를 하나의 파일과 클래스에서 다룰 수 있다는 점이 좋았는데, record와 동시에 사용하기에는 어려워 보인다.. 그렇다면 응집시킬 dto에 대해서는 innerClas방식을 사용하고, 응집시키지 않을 dto나 복잡한 로직을 가진 dto에 대해서는 record를 사용하는게 좋으려나? 두가지 방법 장단점에 대해서 생각을 정리 해봐야겠다.
 6. 클라이언트에 **비동기 통신의 응답을 내려줄 방법**으로 여러가지 방법이 있는 것 같은데 어떤 방법을 사용할까?
 	- **websocket** 열어주기(채팅 서비스를 위해 적용 예정이기 때문에 좋을것 같기도)
-	- **gRPC(google Remote Procedure Call)**..?
-	- **Server-Sent Events (SSE)**..?
-	- **Long Polling** : 응답을 지연시키기..?
+	- **gRPC(google Remote Procedure Call)**..?뭐야이거
+	- **Server-Sent Events (SSE)**..?넌또뭐야
+	- **Long Polling** : 응답을 지연시키기..? 대체 넌또뭐고
 	- 추가 검색 : **HTTP/2 Server Push** - 클라이언트를 판별할수있는 방법이 뭐지?
 	  참고 : [WebSockets vs SSEs vs gRPC vs Polling vs Webhooks : Efficient Real-Time Communication](https://medium.com/@wadkararyan01/efficient-real-time-communication-and-crud-operations-c8f35283ce38)
 

@@ -357,8 +357,11 @@ SELECT memid, surname, firstname, joindate
 ## 8. How can you produce an ordered list of the first 10 surnames in the members table? The list must not contain duplicates.
 - 정답
 ```sql
+SELECT DISTINCT surname
+	FROM cd.members
+	ORDER BY surname
+	LIMIT 10;
 ```
-
 
 ## 9. You'd like to get the signup date of your last member. How can you retrieve this information?
 - 정답
