@@ -1,4 +1,4 @@
-오늘 수강한 강의 : [【한글자막】 데이터 역량 강화를 위한 SQL 부트캠프](https://www.udemy.com/course/best-sql-2022/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Webindex_Catchall_la.KR_cc.KR&utm_term=_._ag_154831691911_._ad_667917181863_._kw__._de_c_._dm__._pl__._ti_dsa-1456167871416_._li_1009871_._pd__._&matchtype=&gad_source=1&gclid=CjwKCAiA4smsBhAEEiwAO6DEjYTfA9uRKpohvXL57GOl1RtmvewP_qtbVoeZO3pIG1_bIILaS16QnRoCNZgQAvD_BwE)
+오늘 수강한 강의 : [【한글자막】 완전 초보자를 위한 Java 프로그래밍 : 단기간에 Java 완벽 정복](https://www.udemy.com/course/best-java-programming/)
 
 ---
 # 오늘의 강의 정리 📗
