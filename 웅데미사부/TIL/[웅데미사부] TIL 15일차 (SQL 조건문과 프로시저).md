@@ -12,7 +12,6 @@ tistoryPostUrl: https://yanacoding.tistory.com/246
 
 ---
 # 오늘의 강의 정리 📗
-<목차여기>
 
 # Data types
 - Postgresql의 데이터 타입 [참조](https://www.postgresql.org/docs/current/datatype.html)

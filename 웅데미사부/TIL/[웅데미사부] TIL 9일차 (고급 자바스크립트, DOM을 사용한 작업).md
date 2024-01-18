@@ -12,7 +12,7 @@ tistoryPostUrl: https://yanacoding.tistory.com/234
 
 ---
 # 오늘의 강의 정리 📗
-<목차여기>
+
 # 전역변수 window
 - 브라우저에 활성화된 윈도우와 관련된 많은 유틸리티 정보과, 기능이 저장되어있음.
 - 브라우저의 탭을 의미하기도 함.

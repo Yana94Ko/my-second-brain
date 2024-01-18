@@ -12,7 +12,7 @@ tistoryPostUrl: https://yanacoding.tistory.com/247
 
 ---
 # 오늘의 강의 정리 📗
-<목차여기>
+
 # JShell :  JAVA REPL(Read Eval Print Roop)
 - 파이썬의 Python shell처럼, 한줄씩 코드를 실행시켜준다.
 ## JSell 설치방법

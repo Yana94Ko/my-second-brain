@@ -12,7 +12,7 @@ tistoryPostUrl: https://yanacoding.tistory.com/253
 
 ---
 # 오늘의 강의 정리 📗
-<목차여기>
+
 # String
 - 자바에서 String은 참조형 타입
 - 참조형이므로 실제 데이터가 아닌 메모리 내에서의 주소를 저장하며, 불변(immutable)성을 가지고 있음

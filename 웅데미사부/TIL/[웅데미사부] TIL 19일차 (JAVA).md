@@ -12,7 +12,7 @@ tistoryPostUrl: https://yanacoding.tistory.com/252
 
 ---
 # 오늘의 강의 정리 📗
-<목차여기>
+
 ![](https://i.imgur.com/s735z9w.png)
 # wrapper class
 - 기본 자료형을 객체로 감싸는 역할

@@ -13,7 +13,7 @@ tistoryPostUrl: https://yanacoding.tistory.com/221
 
 ---
 # 오늘의 강의 정리 📗
-<목차여기>
+
 # ==멋있는 웹사이트 만들기==
 ## [CSS 변수](https://developer.mozilla.org/ko/docs/Web/CSS/Using_CSS_custom_properties)
 ### 변수의 선언 : "--"로 시작하는 변수명 : 사용하고자 하는 속성

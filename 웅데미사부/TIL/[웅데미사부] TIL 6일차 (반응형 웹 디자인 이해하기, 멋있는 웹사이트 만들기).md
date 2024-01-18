@@ -12,7 +12,7 @@ tistoryPostUrl: https://yanacoding.tistory.com/219
 
 ---
 # 오늘의 강의 정리 📗
-<목차여기>
+
 ## em : 해당 단위가 사용되고 있는 요소의 `font-size` 속성값에 비례해서 결정되는 상대 단위
 - `font-size` : `20p`
 	- `0.5em = 20 px x 0.5 = 10px`

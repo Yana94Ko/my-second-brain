@@ -12,7 +12,7 @@ tistoryPostUrl: https://yanacoding.tistory.com/237
 
 ---
 # 오늘의 강의 정리 📗
-<목차여기>
+
 # [React](https://react.dev/)란?
 - User Interface를 만들기 위한 JS 라이브러리(Facebook_현재Meta에서 만들었다.)
 1. 웹 개발이 복잡해짐에 따라 html, css, js만으로는 한계가 생겼으며, 초기에는 Web 개발을 위한 프론트엔드 라이브러리로 DOM조작을 쉽게해주는 jQuery 라이브러리가 주로 사용되었음

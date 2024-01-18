@@ -12,7 +12,7 @@ tistoryPostUrl: https://yanacoding.tistory.com/225
 
 ---
 # 오늘의 강의 정리 📗
-<목차여기>
+
 # ==자바스크립트 기초 이해하기==
 
 ## 자바스크립트란?

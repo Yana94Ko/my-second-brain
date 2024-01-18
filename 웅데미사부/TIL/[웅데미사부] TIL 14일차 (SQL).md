@@ -12,7 +12,7 @@ tistoryPostUrl: https://yanacoding.tistory.com/243
 
 ---
 # 오늘의 강의 정리 📗
-<목차여기>
+
 # HAVING : 집계가 수행된 '이후'에 진행할 필터링
 - AGG()와 같은 값(GROUP BY 이후 알게될 값)을 기준으로 필터링시 사용
 	- cf) WHERE : 집계가 수행되기 전 실행할 필터링

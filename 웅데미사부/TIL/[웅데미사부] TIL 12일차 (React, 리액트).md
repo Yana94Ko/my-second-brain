@@ -13,7 +13,7 @@ tistoryPostUrl: https://yanacoding.tistory.com/238
 
 ---
 # 오늘의 강의 정리 📗
-<목차여기>
+
 # Component 
 - 커스텀 컴포넌트는 사용되는 시점에 반드시 대문자로 시작해야 한다.
 	- 리액트는 기본적으로 소문자이면 디폴트로 존재하는 컴포넌트(ex. div 등)를 해당 이름으로 조회하기 때문.

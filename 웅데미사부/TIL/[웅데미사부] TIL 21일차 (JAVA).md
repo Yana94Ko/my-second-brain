@@ -12,7 +12,7 @@ tistoryPostUrl: https://yanacoding.tistory.com/254
 
 ---
 # 오늘의 강의 정리 📗
-<목차여기>
+
 # Array
 ## 배열이란?
 Java의 배열은 고정 크기의 데이터 구조로, 동일한 데이터 형식의 요소를 담을 수 있음.
