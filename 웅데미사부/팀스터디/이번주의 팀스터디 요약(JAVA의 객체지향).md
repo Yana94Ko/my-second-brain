@@ -1,11 +1,11 @@
 ---
 tistoryBlogName: yanacoding
-tistoryTitle: 이번주의 팀스터디 요약(SQL, JAVA 코딩테스트)
+tistoryTitle: 이번주의 팀스터디 요약(JAVA의 객체지향)
 tistoryVisibility: "3"
-tistoryCategory: "1197248"
+tistoryCategory: "1205801"
 tistorySkipModal: true
-tistoryPostId: "245"
-tistoryPostUrl: https://yanacoding.tistory.com/245
+tistoryPostId: "260"
+tistoryPostUrl: https://yanacoding.tistory.com/260
 ---
 # 👱‍♀ 자머니조의 팀스터디 🥊
 

@@ -2,7 +2,7 @@
 tistoryBlogName: yanacoding
 tistoryTitle: 이번주의 팀스터디 요약(JAVA JVM, 메모리 영역, 코딩테스트)
 tistoryVisibility: "3"
-tistoryCategory: "1197248"
+tistoryCategory: "1205801"
 tistorySkipModal: true
 tistoryPostId: "255"
 tistoryPostUrl: https://yanacoding.tistory.com/255

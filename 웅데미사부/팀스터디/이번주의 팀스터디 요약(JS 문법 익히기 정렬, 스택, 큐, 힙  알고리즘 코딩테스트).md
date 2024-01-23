@@ -3,7 +3,7 @@ tistoryBlogName: yanacoding
 tistoryTitle: 이번주의 팀스터디 요약(JS 문법 익히기 정렬, 스택, 큐, 힙  알고리즘 코딩테스트)
 tistoryTags: Js,Javascript,스택,큐,힙,heap,stack,queue
 tistoryVisibility: "3"
-tistoryCategory: "1197248"
+tistoryCategory: "1205801"
 tistorySkipModal: true
 tistoryPostId: "235"
 tistoryPostUrl: https://yanacoding.tistory.com/235

@@ -2,10 +2,10 @@
 tistoryBlogName: yanacoding
 tistoryTitle: 이번주의 팀스터디 요약(자료구조, 탐색, CSS FlexBox, 정렬)
 tistoryVisibility: "3"
-tistoryCategory: "1197250"
-tistorySkipModal: true
+tistoryCategory: "1205801"
 tistoryPostId: "222"
 tistoryPostUrl: https://yanacoding.tistory.com/222
+tistorySkipModal: true
 ---
 # 미친피자먹어조의 팀스터디 🥊
 # 월요일 : 스택 큐 BFS DFS 개인 공부 | 화요일 : 발표

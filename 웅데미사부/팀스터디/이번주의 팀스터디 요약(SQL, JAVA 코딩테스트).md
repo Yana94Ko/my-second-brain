@@ -2,7 +2,7 @@
 tistoryBlogName: yanacoding
 tistoryTitle: 이번주의 팀스터디 요약(SQL, JAVA 코딩테스트)
 tistoryVisibility: "3"
-tistoryCategory: "1197248"
+tistoryCategory: "1205801"
 tistorySkipModal: true
 tistoryPostId: "245"
 tistoryPostUrl: https://yanacoding.tistory.com/245

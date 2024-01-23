@@ -1,5 +1,6 @@
 {
   "attachmentFolderPath": "첨부파일",
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "smartIndentList": true
 }
