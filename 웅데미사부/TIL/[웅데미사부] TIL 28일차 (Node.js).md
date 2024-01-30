@@ -13,7 +13,9 @@ tistoryPostUrl: https://yanacoding.tistory.com/277
 
 ---
 # 오늘의 강의 정리 📗
-
+## Spring Boot 배워보기
+## Spring Boot와 Spring Data JPA
+## Node.js 와 Express js
 ---
 # 오늘의 멘토링 🥸
 - Q1 : 

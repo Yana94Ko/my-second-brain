@@ -1,27 +1,23 @@
 ---
 tistoryBlogName: yanacoding
-tistoryTitle: "[웅데미사부] TIL 22일차 (JAVA)"
+tistoryTitle: "[웅데미사부] TIL 31일차 (HTTP, JS 복습)"
 tistoryTags: " 유데미,유데미큐레이션,유데미취업부트캠프,유데미부트캠프,프론트엔드,백엔드,개발부트캠프"
-tistoryVisibility: "0"
+tistoryVisibility: "3"
 tistoryCategory: "1197249"
 tistorySkipModal: true
-tistoryPostId: "261"
-tistoryPostUrl: https://yanacoding.tistory.com/261
+tistoryPostId: "280"
+tistoryPostUrl: https://yanacoding.tistory.com/280
 ---
 
 오늘 수강한 강의 : [【한글자막】 완전 초보자를 위한 Java 프로그래밍 : 단기간에 Java 완벽 정복](https://www.udemy.com/course/best-java-programming/)
 
 ---
 # 오늘의 강의 정리 📗
-## 자바 프로그래밍의 참조형
-### 
-## 자바 프로그래밍의 컬렉션
 
 ---
 # 오늘의 멘토링 🥸
 - Q1 : 
 	- A : 
-	- 
 - Q2 : 
 	- A : 
 - Q3 : 

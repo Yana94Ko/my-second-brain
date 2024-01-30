@@ -13,7 +13,7 @@ tistoryPostUrl: https://yanacoding.tistory.com/279
 
 ---
 # 오늘의 강의 정리 📗
-
+## 중간 시험 대비 
 ---
 # 오늘의 멘토링 🥸
 - Q1 : 
