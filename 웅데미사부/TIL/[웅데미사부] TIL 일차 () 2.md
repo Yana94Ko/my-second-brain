@@ -4,7 +4,7 @@
 ## React Query
 
 서버사이드 상태관리
-
+fastify : promise에 조금 더 최적화되어있음
 ## Redux
 
 클라이언트 사이드 상태관리
